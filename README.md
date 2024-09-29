@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+need NODE 20+ AND NPM
+
 1. **Clone the Repository**
 
    ```sh
@@ -42,19 +44,24 @@
 
 ## Running Scripts
 
-### 1. Spam Transfer
+### 1. Spam Transfer until token unlock
 
 To perform spam transfers until the transfer function is opened:
 
+ini untuk melakukan spam transfer sampai fungsi transfer dibuka:
+
 ```sh
-npx hardhat run scripts/spam.js --network swisstronik
+npx hardhat run scripts/spam.js --network ethereum
 ```
 
-### 2. Set Message
+### 2. Spam check value eth until transfered
 
 This function transfers when ETH balance is above a certain threshold.
 Adjust `ETH_THRESHOLD` to set the transfer trigger amount.
 
+ini fungsi untuk transfer apa bila saldo eth diatas angka tertentu,
+jangan lupa ubah ETH_THRESHOLD untuk menentukan eth diatas angka itu akan melakukan tf
+
 ```sh
-npx hardhat run scripts/bot.js --network swisstronik
+npx hardhat run scripts/bot.js --network ethereum
 ```
