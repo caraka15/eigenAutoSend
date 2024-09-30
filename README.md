@@ -34,13 +34,12 @@ need NODE 20+ AND NPM
 4. **Configuration**
    Edit `config.json`:
    ```sh
-   nano bot.js
-   # or
-   nano spam.js
+   nano config.json
    ```
    Modify these values:
    - `DESTINATION_ADDRESS`
    - `TOKEN_AMOUNT_TO_TRANSFER`
+   - `ETH_THRESHOLD`
 
 ## Running Scripts
 
