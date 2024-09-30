@@ -11,6 +11,10 @@ module.exports = {
       url: "https://eth-pokt.nodies.app",
       accounts: [`0x${PRIVATE_KEY}`],
     },
+    holesky: {
+      url: "https://1rpc.io/holesky	",
+      accounts: [`0x${PRIVATE_KEY}`],
+    },
   },
   sourcify: {
     enabled: true,
