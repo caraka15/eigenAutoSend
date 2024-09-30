@@ -32,7 +32,7 @@ need NODE 20+ AND NPM
    Save with `Ctrl+X`, then `Y`, then `Enter`.
 
 4. **Configuration**
-   Edit `bot.js` or `spam.js`:
+   Edit `config.json`:
    ```sh
    nano bot.js
    # or
@@ -60,7 +60,7 @@ This function transfers when ETH balance is above a certain threshold.
 Adjust `ETH_THRESHOLD` to set the transfer trigger amount.
 
 ini fungsi untuk transfer apa bila saldo eth diatas angka tertentu,
-jangan lupa ubah ETH_THRESHOLD untuk menentukan eth diatas angka itu akan melakukan tf
+jangan lupa ubah `ETH_THRESHOLD` untuk menentukan eth diatas angka itu akan melakukan tf
 
 ```sh
 npx hardhat run scripts/bot.js --network ethereum
